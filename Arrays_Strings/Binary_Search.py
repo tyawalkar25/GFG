@@ -1,4 +1,5 @@
 # Time Complexity - O(log N)
+# Space Complexity - O(1)
 class Solution:
     def binarysearch(self,arr,k):
         #arr = list(dict.fromkeys(arr))
