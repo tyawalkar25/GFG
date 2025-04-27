@@ -1,0 +1,28 @@
+# Time Complexity - O(n)
+# Space Complexity - O(n)
+
+class Solution:
+    def twoSum(self, arr,target):
+        if len(arr) < 2:
+            return False
+        else:
+            count = 0
+            s = set()
+            for i in arr:
+                curr = target - i
+                if curr not in s:
+                    s.add(i)
+                else:
+                    count += 1
+                    
+        return count
+        
+        
+
+
+
+ 
+if __name__ == "__main__":
+   ob = Solution()
+   ans = ob.twoSum([1,-1,7,5,100],6)
+   print(ans)
