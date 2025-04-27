@@ -1,3 +1,5 @@
+# Two pointer approach
+# Given an array of integers and a target sum, the task is to check if there are two numbers in the array that add up to the target sum.
 # Time Complexity - O(nlogn)
 # Space Complexity - O(1)
 class Solution:
