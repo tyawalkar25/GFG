@@ -23,7 +23,7 @@ class Solution:
  
 if __name__ == "__main__":
    ob = Solution()
-   ans = ob.findSubArray([-1,3])
+   ans = ob.findSubArray([4,2,-3,1,7])
    print(ans)
 
 # [4,2,-3,1,7], [4,2,-3,1], [4,2,-3], [4,2], [4], [2,-3,1,7], [2,-3,1], [2,-3], [2], [-3,1,7], [-3,1], [-3], [1,7], [1], [7]
