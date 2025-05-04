@@ -1,6 +1,6 @@
 # Two pointer approach
 # Given an array of integers and a target sum, the task is to check if there are two numbers in the array that add up to the target sum.
-# Time Complexity - O(nlogn)
+# Time Complexity - O(nlogn) because of sorting the array, O(n) for traversing the array
 # Space Complexity - O(1)
 class Solution:
     def twoSum(self, arr,target):
