@@ -25,7 +25,7 @@ class Solution:
  
 if __name__ == "__main__":
    ob = Solution()
-   ans = ob.getAllSubArrays([5,6,-5,-5,3,5,3,-2,0,0],6)
+   ans = ob.getAllSubArrays([1,6],6)
    print(ans)
 
 # expected output: 5
