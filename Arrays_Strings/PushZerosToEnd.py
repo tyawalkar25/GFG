@@ -16,5 +16,5 @@ class Solution:
 
 if __name__ == "__main__":
    ob = Solution()
-   ans = ob.pushZerosToEnd([1, 2, 3])
+   ans = ob.pushZerosToEnd([0, 1, 0, 2, 0, 3])
    print(ans)
