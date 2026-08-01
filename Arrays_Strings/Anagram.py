@@ -1,6 +1,6 @@
 class Solution:
     def areAnagrams(self, s1,s2):
-        return ''.join(sorted(s2))
+        return ''.join(sorted(s2)) == ''.join(sorted(s1))
 
 
 if __name__ == "__main__":
